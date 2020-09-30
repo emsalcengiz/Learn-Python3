@@ -12,4 +12,4 @@ print(eval(veri))
 
 # format() func.
 url = input("sitenin adını giriniz:")
-print("hata google {} sayfasını bulamadı",format(url))
+print("hata google {} sayfasını bulamadı".format(url))
