@@ -6,8 +6,8 @@ numbers = [11, 2 , 3 , 8]
 # def find_max(a,b):
 #     if a > b:
 #         return a
-#     else:
-#         return b
+#
+#      return b
 
 def carp(a,b):
     return a * b
