@@ -13,7 +13,6 @@ def carp(a,b):
     return a * b
 
 
-
 sonuc = reduce(carp, numbers)
 print(sonuc)
 
