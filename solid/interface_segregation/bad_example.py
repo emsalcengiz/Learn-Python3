@@ -1,25 +1,21 @@
 from abc import ABC, abstractmethod
 
 
-class ICanFly(ABC):
+class IDragon(ABC):
     @abstractmethod
     def fly(self) -> None:
         ...
 
-
-class ICanEat(ABC):
     @abstractmethod
     def eat(self) -> None:
         ...
 
-
-class ICanBreathFire(ABC):
     @abstractmethod
-    def fly(self) -> None:
+    def breath_fire(self) -> None:
         ...
 
 
-class Dragon(ICanFly, ICanEat, ICanBreathFire):
+class Dragon(IDragon):
     def fly(self) -> None:
         print("Flying")
 
