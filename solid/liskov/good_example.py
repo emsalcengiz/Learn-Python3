@@ -9,12 +9,6 @@ class MiddleEarthInhabitant(ABC):
 
 class Dancer(ABC):
     def dance(self) -> None:
-        """Let's the inhabitant dance.
-        Preconditions:
-            - Everybody lives
-        Post conditions:
-            - Everybody still lives
-        """
         ...
 
 
