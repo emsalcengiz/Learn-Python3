@@ -62,6 +62,14 @@ import os
 # # dizinler içinde yürümemizi sağlar, Yani fonksiyonun içine yazdığımız dizin içerisindeki tüm altdizin ve dosyaları bize 3 öğeden oluşan bir demet olarak döndürür. Bu demetin sıfırıncı indeksi dizin yolunu , birinci indeksi altdizinleri , ikinci indeksi ise dosyaları
 
 
-for yol,dizin,dosya in os.walk(os.getcwd()):
-    for dosyalar in dosya:
-        print(dosyalar)
+# for yol,dizin,dosya in os.walk(os.getcwd()):
+#     for dosyalar in dosya:
+#         print(dosyalar)
+
+
+
+os.path.exists('göksel.txt')
+#Dosya veya dizinin var olup olmadığını kontrol eder. True veya False değeri döndürür.
+
+os.path.abspath('göksel.txt')
+#Dosyanın yolunu döndürür.
